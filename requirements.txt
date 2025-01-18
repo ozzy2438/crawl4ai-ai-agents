@@ -1,8 +1,9 @@
-streamlit==1.41.1
-crawl4ai==0.4.24
-supabase-py==0.0.2
+streamlit==1.41.1  # Supports requests>=2.27,<3
+crawl4ai==0.4.24  # Supports requests~=2.26
+supabase-py>=0.0.3  # Upgrade to resolve requests conflict
 openai==0.28.1
 python-dotenv==1.0.1
 tqdm==4.66.2
 sentence-transformers==2.5.1
-chromadb==0.4.24 
+chromadb==0.4.24
+requests==2.27.1  # Unified requests version
